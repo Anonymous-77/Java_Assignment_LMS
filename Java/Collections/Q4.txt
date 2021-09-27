@@ -1,0 +1,11 @@
+Q. Whimsical Toys Inc (WTI) needs to record the names of all its employees. Every month, an employee will be chosen at random from these records to receive a free toy.
+A. List. Random employee can be chosen by choosing a number between 0 and size()-1.
+
+Q. WTI has decided that each new product will be named after an employee — but only first names will be used, and each name will be used only once. Prepare a list of unique first names.
+A. Set. Set will not allow the same element to be entered more than once.
+
+Q. WTI decides that it only wants to use the most popular names for its toys. Count up the number of employees who have each first name.
+A. Map. The unique first name of the employees can be mapped to the count of employees with that first name.
+
+Q. WTI acquires season tickets for the local lacrosse team, to be shared by employees. Create a waiting list for this popular sport.
+A. Queue. Usee add() method of queue to add employees to the end of the waiting list, and remove() method to remove them from the end.
